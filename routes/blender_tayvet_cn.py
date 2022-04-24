@@ -26,7 +26,7 @@ vice_four = config['viceFour']
 
 
 match position:
-    case '生之花': image_position =  'flower'
+    case '生之花': image_position = 'flower'
     case '死之羽': image_position = 'feather'
     case '时之沙': image_position = 'sand'
     case '空之杯': image_position = 'cup'
@@ -81,4 +81,3 @@ background.save(buffer, format='PNG')
 value = base64.b64encode(buffer.getvalue())
 
 print(value)
-# sys.stdout.flush()
